@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>minesweeper-game</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body onload="init(4,2)">
+    <div class="topline">
+        <h1 class="title">Mine Sweeper!</h1>
+    </div>
+    <div class="timer">
+        <h3></h3>
+    </div>
+    <div class="life">
+        <h4>life: 2</h4>
+    </div>
+
+    <h2>&#9828;&#9828;</h2>
+    <button onclick="init(4,2)">&#128053</button>
+    <button class="lvBtn" onclick="beginner()">Beginner</button>
+    <button class="lvBtn" onclick="medium()">Medium </button>
+    <button class="lvBtn" onclick="hard()">Expert</button>
+    <!-- 
+    <img src="file:///C:/html/code%20acadamy%20-%20project/Images/walspaper.jpg" alt="wallspaper"> -->
+    <div class="board-container"></div>
+
+
+</body>
+<script src="script.js"></script>
+<script src="render.js"></script>
+<script src="/jquery-3.6.0.js"></script>
+
+</html>

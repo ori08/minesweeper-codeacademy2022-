@@ -1,0 +1,104 @@
+body {
+    background-color: rgb(155, 170, 17);
+    text-align: center;
+    margin: auto;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+}
+
+button {
+    height: 100px;
+    width: 100px;
+
+}
+
+.cell {
+    user-select: none;
+    background-color: rgb(241, 239, 239);
+    text-align: center;
+    margin: auto;
+
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+
+    height: 100px;
+    width: 100px;
+
+    cursor: pointer;
+    color: transparent;
+    border-bottom: 4px solid rgb(10, 36, 27);
+    border-right: 4px solid rgb(10, 36, 27);
+    border-top: 4px solid rgb(10, 36, 27);
+    border-left: 4px solid rgb(10, 36, 27);
+
+    padding: auto;
+}
+
+.tbody {
+    background-color: blue;
+}
+
+.title {
+
+    color: rgb(155, 170, 17);
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
+
+.topline {
+    position: absolute;
+    top: -119px;
+    width: 100%;
+    background-color: #414141;
+    height: 4rem;
+    font-weight: 3px;
+    padding: 5px 20px;
+    box-sizing: border-box;
+    justify-content: center;
+    font-family: 'Lucida Handwriting';
+    box-shadow: 1px 1px 8px #000000cf;
+}
+
+
+.timer {
+    position: absolute;
+    top: -46px;
+    left: 154px;
+    bottom: -64px;
+    width: 31%;
+    background-color: #e9e3e3;
+    height: 7rem;
+    font-weight: 3px;
+    padding: 16px 20px;
+    box-sizing: border-box;
+    justify-content: center;
+    font-family: 'Lucida Handwriting';
+    box-shadow: 6px 1px 8px #000000cf;
+}
+
+
+.life {
+    position: absolute;
+    top: -21px;
+    left: -550px;
+    bottom: -66px;
+    width: 41%;
+    background-color: #e7e0e0;
+    height: 35rem;
+    font-weight: 7px;
+    padding: 16px 20px;
+    box-sizing: border-box;
+    justify-content: center;
+    font-family: monospace;
+    box-shadow: 6px 1px 8px #000000cf;
+    font-size: x-large;
+}
